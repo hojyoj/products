@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Frame</class>
+ <widget class="QFrame" name="Frame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>249</width>
+    <height>533</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <layout class="QVBoxLayout" name="LY">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="CDComboBox" name="supplierCB">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:qlineargradient(x1:.5, y1:0, x2:.5, y2:1, stop:0 #E0E0F0, stop:.2 #F8F8FF, stop:.8 #F4F4FC, stop:1 #D0D0E0); border-radius:0px;</string>
+     </property>
+     <property name="frame">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="CDLineEdit" name="codeED">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:qlineargradient(x1:.5, y1:0, x2:.5, y2:1, stop:0 #E0E0F0, stop:.2 #F8F8FF, stop:.8 #F4F4FC, stop:1 #D0D0E0); border-top-right-radius:6px; border-bottom-right-radius:6px;</string>
+     </property>
+     <property name="frame">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="CDLineEdit" name="nameED">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:qlineargradient(x1:.5, y1:0, x2:.5, y2:1, stop:0 #E0E0F0, stop:.2 #F8F8FF, stop:.8 #F4F4FC, stop:1 #D0D0E0); border-top-right-radius:6px; border-bottom-right-radius:6px;</string>
+     </property>
+     <property name="frame">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="CDNumberEdit" name="minimumED">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:qlineargradient(x1:.5, y1:0, x2:.5, y2:1, stop:0 #E0E0F0, stop:.2 #F8F8FF, stop:.8 #F4F4FC, stop:1 #D0D0E0); border-top-right-radius:6px; border-bottom-right-radius:6px;</string>
+     </property>
+     <property name="frame">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="CDNumberEdit" name="costED">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:qlineargradient(x1:.5, y1:0, x2:.5, y2:1, stop:0 #E0E0F0, stop:.2 #F8F8FF, stop:.8 #F4F4FC, stop:1 #D0D0E0); border-top-right-radius:6px; border-bottom-right-radius:6px;</string>
+     </property>
+     <property name="frame">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="CDNumberEdit" name="discountED">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:qlineargradient(x1:.5, y1:0, x2:.5, y2:1, stop:0 #E0E0F0, stop:.2 #F8F8FF, stop:.8 #F4F4FC, stop:1 #D0D0E0); border-top-right-radius:6px; border-bottom-right-radius:6px;</string>
+     </property>
+     <property name="frame">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="CDNumberEdit" name="chargeED">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:qlineargradient(x1:.5, y1:0, x2:.5, y2:1, stop:0 #E0E0F0, stop:.2 #F8F8FF, stop:.8 #F4F4FC, stop:1 #D0D0E0); border-top-right-radius:6px; border-bottom-right-radius:6px;</string>
+     </property>
+     <property name="frame">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="CDNumberEdit" name="netCostED">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:qlineargradient(x1:.5, y1:0, x2:.5, y2:1, stop:0 #E0E0F0, stop:.2 #F8F8FF, stop:.8 #F4F4FC, stop:1 #D0D0E0); border-top-right-radius:6px;</string>
+     </property>
+     <property name="frame">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CDNumberEdit</class>
+   <extends>QLineEdit</extends>
+   <header>cdWidgets.cdNumberEdit</header>
+  </customwidget>
+  <customwidget>
+   <class>CDLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>cdWidgets.cdLineEdit</header>
+   <slots>
+    <slot>updateStatus()</slot>
+   </slots>
+  </customwidget>
+  <customwidget>
+   <class>CDComboBox</class>
+   <extends>QComboBox</extends>
+   <header>cdWidgets.cdComboBox</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
